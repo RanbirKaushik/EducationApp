@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dotgrey"
+
+    tools:context="ChooseCategory">
+
+    <Button
+        android:id="@+id/math"
+        style="@style/ButtonBorder.DarkGey"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/science"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Mathematics"
+        android:textColorLink="@color/DarkGrey"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/reasoning"
+        style="@style/ButtonBorder.DarkGey"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/english"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Reasoning Intelligence"
+        android:textColorLink="@color/DarkGrey"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/science"
+        style="@style/ButtonBorder.DarkGey"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/reasoning"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="General Science "
+        android:textColorLink="@color/DarkGrey"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/current_affairs"
+        style="@style/ButtonBorder.DarkGey"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Current Affairs"
+        android:textColorLink="@color/DarkGrey"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/english"
+        style="@style/ButtonBorder.DarkGey"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/current_affairs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="English"
+        android:textColorLink="@color/DarkGrey"
+        android:textSize="30dp" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewChooseCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9508056847332120/1587482790"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

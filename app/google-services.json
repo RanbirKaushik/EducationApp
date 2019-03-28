@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "463810845241",
+    "firebase_url": "https://haryana-group-d.firebaseio.com",
+    "project_id": "haryana-group-d",
+    "storage_bucket": "haryana-group-d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463810845241:android:4a0aab4965ea4121",
+        "android_client_info": {
+          "package_name": "studio.golden.dgroupapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463810845241-9ij3f5aqvaogbleip302fb188m02i9k5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "studio.golden.dgroupapp",
+            "certificate_hash": "f2681c1df01aba5728b86cf120d24bc6ce1347b0"
+          }
+        },
+        {
+          "client_id": "463810845241-4hp7g0bv7de1m9fi8q1j2f54pf3mt8rj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh203Or5raT27jk_oXM6LulJEsnO62K8c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463810845241-4hp7g0bv7de1m9fi8q1j2f54pf3mt8rj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

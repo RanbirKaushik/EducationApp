@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnglishMoreActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Here is a big news for all the job seekers who are preparing for working in the Government job. Haryana Government has announced to release about 18218 vacancies for Haryana Group D which includes (Security Gaurd, Beldar, Library Attendant, Helper, Sewadar, chowkidars, Gauge Reader, Safai Karamchari, etc.) in the State Haryana.
+The rule and another information for exam are following :-\n\n Computer Based Test: \n          All the eligible candidates have to undergo a Computer Based Test on the specified date, time and venue as per the e-call letter to be downloaded by the candidates from the websites of RRBs. The information about the e-call letter download shall be communicated through the websites as well as personal email communication to the candidates.
+\n\nTotal Duration  : 90 Min, \nNo of Questions: 100 \nMinimum percentage of marks for eligibility in various categories: UR -40%, OBC-30%, SC-30%, ST30%. These percentage of marks for eligibility may be relaxed by 2% for PWD candidates in case of shortage of PWD candidates against vacancies reserved for them. \n
+Question Type and Syllabus: \nThe Questions will be of objective type with multiple choices and are likely to include questions pertaining to: \n
+a.  Mathematics \nNumber system, BODMAS, Decimals, Fractions, LCM, HCF, Ratio and Proportion, Percentages, Mensuration, Time and Work; Time and Distance, Simple and Compound Interest, Profit and Loss, Algebra, Geometry and Trigonometry, Elementary Statistics, Square root, Age Calculations, Calendar and Clock, Pipes and Cistern etc. \n\n
+b.  General Intelligence and reasoning :\n Analogies, Alphabetical and Number Series, Coding and Decoding, Mathematical operations, Relationships, Syllogism, Jumbling, Venn Diagram, Data Interpretation and Sufficiency, Conclusions and Decision making, Similarities and Differences, Analytical Reasoning, Classification, Directions, Statement – Arguments and  Assumptions etc.\n\n
+c.  General Science :\nThe syllabus under this shall cover Physics, Chemistry and Life Sciences of 10 standard level.\n\n
+d. General Awareness on current affairs :\n in Science and Technology, Sports, Culture, Personalities, Economics, Politics and any other subjects of importance.\n\n
+e. English :\n10th standard english,tense,verbs,noun,Pronoun,Adjectives,Narration,Voice,Personal Development etc.\n\n
+*  PHYSICAL EFFICIENCY TESTS:\nBased on the merit of the candidates in the CBT, candidates shall be called for PET Two times the community wise total vacancy of the Posts notified against RRBs. However, Railways reserve the right to increase/decrease this limit as required to ensure availability of adequate candidates for all the notified posts. Passing Physical Efficiency Test (PET) is mandatory and the same will be qualifying in nature. The criterion for PET is as under:
+\n* Male Candidates:\n--Should be able to lift and carry 35 kg of weight for a distance of 100 metres in 2 minutes in one chance without putting the weight down \n
+--Should be able to run for a distance of 1000 metres in 4 minutes and 15 seconds in one chance\n\n
+*Female Candidates:\n--Should be able to lift and carry 20 kg of weight for a distance of 100 metres in 2 minutes in one chance without putting the weight down \n
+--Should be able to run for a distance of 1000 metres in 5 minutes and 40 seconds in one chance.
+ \n\nNote: \nThe persons with disabilities as specified in Para 11.0 are exempted from appearing for PET. However, after qualifying in the CBT, such candidates will have to pass the medical examination prescribed for Persons with Disabilities. \n"
+            android:textColor="@color/DarkGrey"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewEnglishMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9508056847332120/8695816620"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

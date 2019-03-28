@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreGroupD">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="यह ऐप हरियाणा ग्रुप डी परीक्षा पर आधारित है। इस ऐप में हम आपको वह सब बताएंगे जो परीक्षा में महत्वपूर्ण है। इस ऐप में आपको परीक्षा के लिए सभी जानकारी के बारे में सूचित किया जाएगा। उदाहरण के लिए, परीक्षा का प्रकार, प्रश्न पत्र का प्रकार, परीक्षा का सिलेबस, शारीरिक दक्षता परीक्षा (PHYSICAL EFFICIENCY TESTS)आदि। परीक्षा के बारे में अधिक जानकारी के लिए नीचे दिए गए बटन पर क्लिक करें।"
+        android:textSize="22dp"
+        android:textColor="@color/DarkGrey"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/hindi_more"
+        style="@style/ButtonBorder.DarkGey"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="In Hindi"
+        android:layout_below="@+id/english_more"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:textColorLink="@color/DarkGrey"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/english_more"
+        style="@style/ButtonBorder.DarkGey"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="In English"
+        android:layout_below="@+id/text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:textColorLink="@color/DarkGrey"
+        android:textSize="30dp"/>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewMoreInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9508056847332120/4205552058"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

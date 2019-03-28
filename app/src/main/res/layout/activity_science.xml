@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Science">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <TextView
+            android:id="@+id/text_view_science"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/DarkGrey"
+            android:textSize="16dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/next_button_science"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Next Page "
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/DarkGrey" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewScience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/next_button_science"
+        android:layout_centerHorizontal="true"
+
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9508056847332120/4046125170"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
